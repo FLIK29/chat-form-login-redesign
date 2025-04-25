@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat Form App - Auth</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .auth-container {
+      max-width: 300px;
+      margin: auto;
+    }
+    .hidden {
+      display: none;
+    }
+    input {
+      display: block;
+      margin: 10px auto;
+      padding: 8px;
+      width: 100%;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="auth-container">
+    <div id="main-options">
+      <button onclick="showLogin()">Iniciar sesión</button>
+      <button onclick="showRegister()">Crear cuenta</button>
+    </div>
+
+    <div id="login-form" class="hidden">
+      <input type="email" id="login-email" placeholder="Correo" />
+      <input type="password" id="login-password" placeholder="Contraseña" />
+      <button onclick="login()">Entrar</button>
+      <button onclick="showRegister()">Crear cuenta</button>
+    </div>
+
+    <div id="register-form" class="hidden">
+      <input type="text" id="register-name" placeholder="Nombre completo" />
+      <input type="email" id="register-email" placeholder="Correo electrónico" />
+      <input type="password" id="register-password" placeholder="Contraseña" />
+      <button onclick="register()">Registrarme</button>
+      <button onclick="showLogin()">Volver al login</button>
+    </div>
+  </div>
+  <script type="module" src="login.js"></script>
+</body>
+</html>
