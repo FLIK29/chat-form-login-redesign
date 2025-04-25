@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyC-eD5UtUoy1SDjU2K7KkC6X3WikDe1Y98",
-  authDomain: "chat-form-demo.firebaseapp.com",
-  projectId: "chat-form-demo",
-  storageBucket: "chat-form-demo.appspot.com",
-  messagingSenderId: "123456789000",
-  appId: "1:123456789000:web:abcdefg1234567"
+apiKey: "AIzaSyCAYP9aDqxl03zlDMF0A0sdpu9MFnX-mgI",
+  authDomain: "chat-form-app.firebaseapp.com",
+  projectId: "chat-form-app",
+  storageBucket: "chat-form-app.firebasestorage.app",
+  messagingSenderId: "1088172343766",
+  appId: "1:1088172343766:web:7883027f799a6db2e4e477"
 };
